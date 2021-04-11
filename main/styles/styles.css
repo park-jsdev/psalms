@@ -1,0 +1,43 @@
+body {
+  background-color:black;
+}
+
+h1 {
+  color:white;
+  font-family: 'Crimson Text', serif;
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Lora', serif; */
+}
+
+h2 {
+  color:whitesmoke;
+  font-family: 'Crimson Text', serif;
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Lora', serif; */
+}
+
+h3 {
+  color:whitesmoke;
+  font-family: 'Crimson Text', serif;
+}
+
+h5 {
+  color:whitesmoke;
+  font-family: 'Crimson Text', serif;
+}
+
+p {
+  color:whitesmoke;
+  font-family: 'Crimson Text', serif;
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Lora', serif; */
+  /* font-size: calc(0.8em + 0.2vw); */
+  font-size: 1vw;
+}
+
+.footer h3 {
+  font-size:calc(1em + 1vw);
+}
+.footer p {
+  font-size: calc(1em + 1vw);
+}

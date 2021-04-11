@@ -1,0 +1,427 @@
+<!-- COMP 2681 Final Project
+T00625144
+Junsoo Park
+4/4/2021 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="styles/main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lora&family=Playfair+Display&display=swap" rel="stylesheet">
+<script src="functions.js" type="text/javascript"></script>
+<meta charset="UTF-8">
+<meta name="description" content="COMP 2681 Final Project">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="T00625144">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psalms Research</title>
+</head>
+<body>
+
+
+    <div class="header" style="height: 300px;">
+        <img src="assets/logo_transparent_whitefont.png" style="height: 350px; width: 350px;">
+      </div>
+
+
+      <!-- Default Navbar -->
+      <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <!-- <a href="#about">About</a> -->
+        <!-- Use About on Navbar if you want to scroll down -->
+        <!-- <a href="#contact">Contact</a> -->
+        <a href="registrationcheckout.html">Subscribe</a>
+
+        <!-- Navbar Login Form -->
+        <!-- only show this if logged in -->
+        <a href="billing.html">Account Management</a>
+        <a href="#news">News</a>
+
+
+        <!-- Login form -->
+        <div class="login-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Username" name="username">
+            <input type="text" placeholder="Password" name="psw">
+            <button type="submit">Login</button>
+            <a href="crossreferences.html" class="links">Cross References</a>
+            <!-- Will need a signout -->
+          </form>
+          
+      </div>
+    </div>
+
+      <!-- Spacer -->
+      <!-- <div class="spacer" style="margin-top: 46px"></div> -->
+
+      <div class="content">
+
+<!-- A. Brief description Section -->
+<div class="container" onclick="openTab('b1');" style="width: 100%;">
+
+
+  <div class="row">
+    
+  <div class="video-wrapper">
+  <!-- Scrolling Video -->
+  <video id="containerAVideo" tabindex="0", autobuffer preload class="center" style="width: 100%;">
+    <source src="assets/Earth.mp4" type="video/mp4" >
+  </video>
+
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Bleeding Edge Trading Concepts</b></h1>
+      <h1 class="large-font" style="color:red;"><b>Think different, be right.</b></h1>
+      <p><span style="font-size: 1.2vw">Psalms Research has developed an experimental forecasting method </span> 
+        and harmonized it with a trading system based on the axiom that the market, and all events can be represented as a game of chance or a series of decisions,
+         and one way to win is with a systematic approach of taking calculated risks. 
+        <br>
+        <br>
+        We will share insights derived from our models.
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Word From Our Founder: </h2>
+  <p><span style="font-size:1.2vw">George Marechal's chart was the beginning...</span> 
+    When I saw the chart, which predicted the price action of the stock market precisely - 15 years into the future, I knew it was no coincidence.
+     How could it be? There was a system to it. Roosevelt himself consulted Marechal, and so confident was he, that he had the chart copyrighted.
+      Valuations, balance sheets, the way the wind blows on a certain day… all of these took the back seat to Marechal’s method.
+       With one chart, Marechal took all the rhetoric claiming that the market could not be predicted, and the sanctimonious aphorisms the gurus 
+       and so-called experts so want you to believe… and proved that is <i>BS</i>. Do you really believe that proprietary trading firms or sovereign wealth funds
+        hire traders that only win 50% of their trades… or even three quarters?
+      <br>
+      <br>
+      These methods are typically kept under lock and key, as this is a zero-sum game! Marechal himself refused to reveal his secrets for any sum of money,
+       and took them to his grave. I came to the realization that conditions are symptoms, or lagging indicators of what he used to chart this forecast.
+        I knew I had to learn it - to make it mine. After studying his principles, along with William Delbert Gann, Jesse Livermore, Alan H. Andrews, and many others… 
+        I believe I have found the path. I also believe that their revolutionary, yet perhaps - ancient systems were incomplete, and can be improved upon.
+         Join us on our journey to find the Unifying Theory and develop our event calculus model. It won’t be easy… and I guarantee nothing, but it is a worthy challenge.
+          Welcome.
+          <br>
+          <br>
+          <span style="font-size:1.2vw">“In the middle of difficulty lies opportunity.” - Albert Einstein</span> 
+      </p>
+</div>
+
+<!-- B. Past work Examples Section - Should have a blog layout with popup fullscreen for each example -->
+<div id= "b2-row" class="container" onclick="openTab('b2');">
+  <div class="row2">
+
+  <!-- Needed for Scrolling Video -->
+  <!-- <div id="set-height"></div>
+  <div id="time"></div>
+  <div id="scroll"></div>
+  <video id="containerBVideo" tabindex="0", autobuffer preload>
+    <source src="assets/dna.mp4" type="video/mp4">
+  </video> -->
+
+    <div class="column-33" width="350" height="1">
+    </div>
+    
+    <div class="column-67">
+      <h1 class="xlarge-font"><b>Market Insights</b></h1>
+      <h1 class="large-font" style="color:red">“That which has been is what will be, that which is done is what will be done, and there is nothing new, under the sun.” 
+        - Ecclesiastes 1:9</h1>
+      <p><span style="font-size:1.2vw">
+        Psalms Research’s goal is to be both right, and right at the right <i>time</i>.
+      </span> 
+      We endeavor to combine models for Technical, Fundamental, and Quantitative Research and Analysis with a Framework for Execution and Risk Assessment. 
+      We aspire to develop mental software that can be used to produce repeatable results, and then create real, applicable software with it.
+      <br>
+      <br>
+      We have learned through trial and error that one can be right, but still be <i>unprofitable</i> if the Execution is inadequate. 
+      Allow us to share our experience with you, so that you may accelerate through this stage of learning… for a <i>much</i> smaller cost. 
+    </p>
+    </div>
+  </div>
+</div>
+
+<div id="b2" class="containerTab" style="display:none">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+
+  <!-- The Blog -->
+  <div class="row2">
+    <div class="leftcolumn">
+
+      <h2>Past Examples of Work:</h2>
+      <br>
+
+      <!-- Card 1 -->
+      <div class="card">
+        <h2>Technical Analysis</h2>
+        <h5>Riot Blockchain Inc, Mar 15, 2021</h5>
+        <div>
+
+          <!-- TradingView Chart BEGIN -->
+          <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+          <script type="text/javascript">
+          var tradingview_embed_options = {};
+          tradingview_embed_options.width = '100%';
+          tradingview_embed_options.height = '650px';
+          tradingview_embed_options.chart = '2QzFzklM';
+          new TradingView.chart(tradingview_embed_options);
+          </script>
+          <p><a href="https://www.tradingview.com/chart/RIOT/2QzFzklM-CRYPTO-RIOT-The-Wyckoff-Method/">CRYPTO - RIOT - The Wyckoff Method</a> <a href="https://www.tradingview.com/u/DarkPoolTrading/">by DarkPoolTrading</a> <a href="https://www.tradingview.com/">on TradingView.com</a></p>
+          <!-- TradingView Chart END -->
+
+        </div>
+      </div>
+      <br>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <h2>Fundamental Analysis</h2>
+        <h5>Lumen Technologies, Feb 27, 2021</h5>
+        <div>
+        
+        <!-- TradingView Chart BEGIN -->
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+        var tradingview_embed_options = {};
+        tradingview_embed_options.width = '100%';
+        tradingview_embed_options.height = '650px';
+        tradingview_embed_options.chart = 'h9IPEoHc';
+        new TradingView.chart(tradingview_embed_options);
+        </script>
+        <p><a href="https://www.tradingview.com/chart/LUMN/h9IPEoHc-TITAN-5G-Lumen-Tech-LUMN-The-4th-Industrial-Revolution/">TITAN - 5G - Lumen Tech. $LUMN - The 4th Industrial Revolution</a><a href="https://www.tradingview.com/u/DarkPoolTrading/">by DarkPoolTrading</a> <a href="https://www.tradingview.com/">on TradingView.com</a></p>
+        <!-- TradingView Chart END -->
+        
+        </div>
+      </div>
+
+      <br>
+      <!-- Card 3 -->
+      <div class="card">
+        <h2>Speculation</h2>
+        <h5>Gamestop Corporation, Jan 18, 2021</h5>
+        <div>
+
+        <!-- TradingView Chart BEGIN -->
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+        var tradingview_embed_options = {};
+        tradingview_embed_options.width = '100%';
+        tradingview_embed_options.height = '650px';
+        tradingview_embed_options.chart = 'f6zETpOG';
+        new TradingView.chart(tradingview_embed_options);
+        </script>
+        <p><a href="https://www.tradingview.com/chart/GME/f6zETpOG-GME-Gamestop-Long-to-60-Squeeze-can-it-be-done/">$GME Gamestop Long to 60. Squeeze, can it be done?</a><a href="https://www.tradingview.com/u/DarkPoolTrading/">by DarkPoolTrading</a><a href="https://www.tradingview.com/">on TradingView.com</a></p>
+        <!-- TradingView Chart END -->
+
+        </div>
+      </div>
+      <p>
+        <span style="font-size: 1.2vw;">“Teachers Open The Doors, But You Must Enter By Yourself.” - Chinese Proverb</span>
+      </p>
+
+    </div>
+
+    <!-- Get logos for social media links -->
+    <div class="rightcolumn">
+      <div class="card">
+        <h3>Follow Us: </h3>
+        <br>
+        <a href="https://www.tradingview.com/u/DarkPoolTrading/" style="display: inline-block;">Tradingview: @DarkPoolTrading</a>
+        <a href="https://www.youtube.com/" style="display: inline-block;">YouTube: @PsalmsResearch</a>
+        <a href="https://stocktwits.com/symbol/SPY" style="display: inline-block;">StockTwits: @PsalmsResearch</a>
+        <a href="https://discord.com/" style="display: inline-block;">Discord: @PsalmsResearch</a>
+
+        <!-- Twitter embedded feed -->
+        <a class="twitter-timeline" href="https://twitter.com/PsalmsResearch?ref_src=twsrc%5Etfw">Tweets by PsalmsResearch</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- C. Services offered Section -->
+<div class="container" onclick="openTab('b3');">
+  <div class="row2">
+
+  <!-- Needed for Scrolling Video -->
+  <!-- <div id="set-height"></div>
+  <div id="time"></div>
+  <div id="scroll"></div>
+  <video id="containerCVideo" tabindex="0", autobuffer preload>
+    <source src="assets/material.mp4" type="video/mp4">
+  </video> -->
+
+    <div class="column-67">
+      <h1 class="xlarge-font"><b>Services Offered</b></h1>
+      <h1 class="large-font" style="color:red">"Anything with numbers, I can forecast." - Alan H. Andrews</h1>
+      <p><span style="font-size:1.2vw">Many market analysts are experts at telling you what has happened, or what <i>is</i> happening… </span> 
+        Speculators attempt to <b>predict what is <i>going</i> to happen</b>.
+        <br>
+        <br>
+        Psalms Research will provide speculative insights focusing on macroeconomics, commodities, and equities.        
+        </p>
+        <br>
+      
+      <!-- This button should route to Subscription page -->
+      <form action="registrationcheckout.html">
+        <button class="button" button type="submit">Subscribe</button> 
+      </form>
+    </div>
+    <div class="column-33" width="335" height="100%" style="margin-bottom: 10%;">
+    </div>
+  </div>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Insight Newsletter</h2>
+  <p><span style="font-size: 1.2vw;">Ignorance, greed, fear and hope - These are the trader’s deadly enemies.</span> We provide insights to depose of these vices in our monthly newsletter.
+    <br>
+    <br>
+    Our trading system is fundamentally based on mathematical statistics. We understand that trading decisions made based on emotional biases are unprofitable. 
+    Interestingly, people are naturally risk adverse toward gains, but risk seeking toward losses! This means that to be profitable in trading, one must go against
+     their very nature… Not only that, but they must do it <i>consistently, frequently,</i> and they must do it under the emotional duress of facing the <i>unexpected</i>...
+      where more often than not, split-second decisions are necessary.
+      <br>
+      <br>
+      On the flip side:
+      <br>
+      <br>
+      <span style="font-size: 1.2vw;">“Opportunities are unlimited.” - Neil Armstrong</span>
+      <br>
+      <span style="font-size: 1.2vw;">“Luck is what happens when preparation meets opportunity.” - Lucius Annaeus Seneca</span>
+      <br>
+      <br>
+      If these two statements are true, then it must also be true that luck can be acquired with patience, conviction, and <i>preparation</i>.
+      <br>
+      <br>
+      Our Insight Newsletter offers a different view, carefully crafted, and free of consensus decision-making biases. Be informed. Be prepared. Make your own luck.
+      <br>
+      <br>
+      It is said that 90 percent of traders fail to make money in the stock market. This is because it is a winner-take-all, zero-sum game,
+      where the consensus decision is usually the losing play... In order to be successful in the stock market, one must
+      <span style="font-size: 1.2vw; color:red"><i><b>Think different, be right.</b></i></span>
+      </p>
+
+</div>
+
+
+      <div class="footer" style="margin-left: 20%;margin-right: 20%; display: inline-block;">
+        <h1>TERMS AND CONDITIONS</h1>
+        <p>Psalms Research, LLC. (PR) and its members, officers, directors, owners, employees, agents, representatives, suppliers and service providers (collectively “PR”) provides this website (the “Site”).  Use of and access to the Site and the information, materials, services, and other content available on or through the Site, through communications sent by PR, or services offered by PR (“Content”) are subject to these terms of use and all applicable laws.</p>
+        <br><br>
+        <h3>DISCLAIMER</h3>
+        <p>
+        PR absolutely does not provide financial advice in any shape or form. PR provides what is to our knowledge - news and opinions. PR does not recommend investing based on our opinions and strongly cautions that securities trading and investment involves high risk and that you can lose a lot of money. Loss of principal is possible. We do not recommend risking money you cannot afford to lose.
+        <br><br>
+        PR does not guarantee future performance nor accuracy in historical analyses. We are not registered investment advisors. Our newsletter, opinions, and statements are not a substitute for professional investment advice.
+        <br><br>
+        We provide newsletters containing impersonal market observations and our opinions. We do not provide trading or investment advice. Information contained herein should not be considered a solicitation to buy or sell any security or engage in a particular investment strategy.
+        <br><br>
+        Performance results are hypothetical. Past performance is not necessarily indicative of future results. Use of this website, or our services constitutes acceptance of the Terms of this Disclaimer.
+      </p>
+        <h3>NO INVESTMENT ADVICE</h3>
+        <p>
+          The Content is for informational purposes only, you should not construe any such information or other material as legal, tax, investment, financial, or other advice. Nothing contained on our Site constitutes a solicitation, recommendation, endorsement, or offer by PR or any third party service provider to buy or sell any securities or other financial instruments in this or in in any other jurisdiction in which such solicitation or offer would be unlawful under the securities laws of such jurisdiction.
+          <br><br>
+          All Content on this site is information of a general nature and does not address the circumstances of any particular individual. Nothing in the Site constitutes professional and/or financial advice, nor does any information on the Site constitute a comprehensive or complete statement of the matters discussed or the law relating thereto. PR is not a fiduciary by virtue of any person’s use of or access to the Site or Content. You alone assume the sole responsibility of evaluating the merits and risks associated with the use of any information or other Content on the Site before making any decisions based on such information or other Content. In exchange for using the Site, or our newsletter, you agree not to hold PR, its affiliates or any third party service provider liable for any possible claim for damages arising from any decision you make based on information or other Content made available to you through the Site or our services.
+        </p>
+        <h3>THIRD PARTY LINKED SITES</h3>
+        <p>
+          As a convenience to you, PR may provide hyperlinks to web sites operated by third parties.  When you select these hyperlinks you will be leaving the PR site.  Because PR has no control over such sites or their content, PR is not responsible for the availability of such external sites or their content, and PR does not adopt, endorse or nor is responsible or liable for any such sites or content, including advertising, products or other materials, on or available through such sites or resources.  Other web sites may provide links to the Site or Content with or without our authorization.  PR does not endorse such sites and shall not be responsible or liable for any links from those sites to the Site or Content, or for any content, advertising, products or other materials available on or through such other sites, or any loss or damages incurred in connection therewith.  PR may, in its sole discretion, block links to the Site and Content without prior notice.
+          <br><br>
+          YOUR USE OF THIRD PARTY WEB SITES AND CONTENT, INCLUDING WITHOUT LIMITATION, YOUR USE OF ANY INFORMATION, DATA, ADVERTISING, PRODUCTS, OR OTHER MATERIALS ON OR AVAILABLE THROUGH SUCH WEB SITES, IS AT YOUR OWN RISK AND IS SUBJECT TO THEIR TERMS OF USE.
+        </p>
+        <h3>SITE AND CONTENT NOT WARRANTED</h3>
+        <p>
+          THE SITE AND CONTENT, ARE PROVIDED “AS IS” AND WITHOUT WARRANTIES OR REFUNDS OF ANY KIND.  YOU BEAR ALL RISKS ASSOCIATED WITH THE USE OF THE SITE AND CONTENT, INCLUDING WITHOUT LIMITATION, ANY RELIANCE ON THE ACCURACY, COMPLETENESS OR USEFULNESS OF ANY CONTENT AVAILABLE ON THE SITE.  PR AND ITS EMPLOYEES, OFFICERS, DIRECTORS, PARTNERS, AGENTS, REPRESENTATIVES, SUPPLIERS AND SERVICE PROVIDERS, DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ALL WARRANTIES OF TITLE, NON-INFRINGEMENT, ACCURACY, COMPLETENESS, USEFULNESS, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR USE, AND WARRANTIES THAT MAY ARISE FROM COURSE OF DEALING/PERFORMANCE OR USAGE OF TRADE.
+        </p>
+        <h3>LIMITATION OF LIABILITY</h3>
+        <p>
+          YOUR EXCLUSIVE REMEDY FOR DISSATISFACTION WITH THE SITE AND CONTENT IS TO STOP USING THE SITE AND CONTENT.  PR IS NOT LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE DAMAGES, UNDER ANY THEORY OF LIABILITY, INCLUDING WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, USE, DATA, OR LOSS OF OTHER INTANGIBLES.  IN PARTICULAR, AND WITHOUT LIMITATION, PR WILL NOT BE LIABLE FOR DAMAGES OF ANY KIND RESULTING FROM YOUR USE OF OR INABILITY TO USE THE SITE OR CONTENT.
+          <br><br>
+          While we try to maintain the integrity and security of the Site and the servers from which the Site is operated, we do not guarantee that the Site or Content is or remains secure, complete or correct, or that access to the Site or Content will be uninterrupted or error free.  The Site and Content may include inaccuracies, errors and materials that violate or conflict with these Terms.  Additionally, third parties may make unauthorized alterations to the Site or Content.  If you become aware of any unauthorized third party alteration to the Site or Content, contact us at psalmsresearch@gmail.com with a description of the material(s) at issue and the URL.
+        </p>
+        <h3>NOTICES, COMMUNICATIONS, AND ELECTRONIC SIGNATURES</h3>
+        <p>
+          You agree to be bound by any affirmation, assent or agreement that you transmit on or through the Site or any other aspect of PR’s services that you access by computer or other electronic device, including internet, telephonic and wireless devices, including but not limited to any consent you give to receive communications from us solely through electronic transmission. You agree that, when in the future you click on a “Submit” or “I agree” or other similarly worded “button” or entry field with your mouse, keystroke or other device, your agreement or consent will be legally binding and enforceable and the legal equivalent of your handwritten signature.
+        </p>
+        <h3>
+          LIMITED RIGHT OF USE/OWNERSHIP OF CONTENT
+        </h3>
+        <p>
+          You are permitted to use the Site and Content for your personal, non-commercial use only.  The Site and Content are and shall remain the property of PR and is protected by copyright, trademark, patent, and/or other intellectual property, proprietary, work product rights and laws.  You may use the Site and Content for your personal, noncommercial use, provided that you keep intact all copyright, trademark, patent and other proprietary notices.  Except as expressly authorized in advance by PR in writing, you agree not to reproduce, modify or create derivative works based on, rent, lease, loan, sell, distribute, publish, publicly perform or display, reverse engineer, de-compile or dissemble, all or any part of the Site or Content.
+          <br><br>
+          Trade names, trademarks and service marks of PR include, without limitation, PR and any associated logos.  All trademarks and service marks on the Site not owned by PR are the property of their respective owners.  Nothing contained on the Site should be construed as granting, by implication, estoppel or otherwise, any license or right to use any of PR’s trade names, trademarks or service marks without our express prior written consent.
+        </p>
+        <h3>
+          TERMINATION
+        </h3>
+        <p>
+          PR, in its sole discretion, may terminate your access to or use of the Site and Content or services, at any time and for any reason.  Your access to or use of the Site and Content may be terminated without notice.  PR shall not be liable to you or any third party for any termination of your access to the Site or Content, or to any such information or files, and shall not be required to make such information or files available to you after any such termination.
+        </p>
+        <h3>
+          RULES OF CONDUCT
+        </h3>
+        <p>
+          Your use of the Site and Content is conditioned on your compliance with the rules of conduct set forth here.  You will not:
+        <br>
+        •    Use the Site or Content for any fraudulent or unlawful purpose.
+        <br>
+        •    Interfere with or disrupt the operation of the Site or Content or the servers or networks used to make the Site and Content available; or violate any requirements, procedures, policies or regulations of such networks.
+        <br>
+        •    Restrict or inhibit any other person from using the Site or Content (including without limitation by hacking or defacing any portion of the Site or Content).
+        <br>
+        •    Use the Site or Content to advertise or offer to sell or buy any goods or services without PR’s express prior written consent.
+        <br>
+        •    Reproduce, duplicate, copy, sell, resell or otherwise exploit for any commercial purposes, any portion of, use of, or access to the Site or Content.
+        <br>
+        •    Modify, adapt, reverse engineer, de-compile/disassemble any part of the Site or Content.
+        <br>
+        •    Remove any copyright, trademark or other proprietary rights notice from the Site or materials originating from the Site or Content.
+        <br>
+        •    Frame or mirror any part of the Site or Content without PR’s express prior written consent.
+        <br>
+        •    Create a database by systematically downloading and storing Content.
+        <br>
+        •    Use any robot, spider, site search/retrieval application or other manual or automatic device to retrieve, index, “scrape,” “data mine” or in any way gather Content or reproduce or circumvent the navigational structure or presentation of the Site without Company’s express prior written consent.
+        </p>
+        <h3>
+          INDEMNIFICATION
+        </h3>
+        <p>
+          By accessing and using the Site and Content, you agree to indemnify, defend and hold harmless PR (specifically including its officers, directors, owners, partners, employees, agents, information providers, licensors and licensees) (collectively, the “Indemnified Parties”) from and against any and all claims, losses, costs and expenses (including attorneys’ fees) arising out of or relating to (a) any breach (or claim, that if true, would be a breach) by you of these Terms and (b) your use of or activities in connection with the Site. We reserve the right, at our own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you. You shall not enter into any settlement agreement which affects the rights of any of the Indemnified Parties or requires the taking of any action by any of them, without our prior written approval.
+        </p>
+        <h3>
+        JURISDICTIONAL CONTEXT
+        </h3>
+        <p>
+          The Site is controlled and operated by PR from Canada, and is not intended to subject PR to the laws or jurisdiction of any country or territory other than that of Canada.  PR does not represent or warrant that the Site or any part thereof is appropriate or available for use in any particular jurisdiction other than Canada and only in those Canadian provinces where PR is registered or licensed or exempt from registration or licensing under applicable provincial or federal law.  In choosing to access the Site, you do so on your own initiative and at your own risk, and you are responsible for complying with all local laws, rules and regulations.  We may limit the Site’s availability to any person, geographic area or jurisdiction.
+        </p>
+        <h3>
+          MODIFICATIONS
+        </h3>
+        <p>
+          PR may amend the terms of use at any time in its discretion, by posting revisions on the Site.
+        </p>
+
+      
+      <h3>Contact:</h3>
+      <p>psalmsresearch@gmail.com</p>
+      <p>Site last updated April 3, 2021</p>
+      </div>
+      </div>
+
+<script>
+  scrollingVideo();
+</script>
+
+
+</body>
+</html>
